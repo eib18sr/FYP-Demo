@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1901833966441682802}
-  - component: {fileID: 1901833966441682803}
   - component: {fileID: 7211604506098578340}
+  - component: {fileID: 4167845550569351499}
   m_Layer: 0
   m_Name: Weather
   m_TagString: Untagged
@@ -34,19 +34,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1901833966441682803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901833966441682801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e4aad875fd423c4c88db97cb1f81007, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weatherText: {fileID: 1901833967573052192}
 --- !u!114 &7211604506098578340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,6 +47,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1901833967630169608}
+--- !u!114 &4167845550569351499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901833966441682801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b65ebdc407c23e2468a4a3c924a2b583, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weatherText: {fileID: 1901833967573052192}
+  keyFile: {fileID: 4900000, guid: e0fb65352efbd624abeb5b9752822566, type: 3}
 --- !u!1 &1901833967573052206
 GameObject:
   m_ObjectHideFlags: 0
@@ -96,7 +97,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.114, y: 0.1983}
-  m_SizeDelta: {x: 200, y: 100}
+  m_SizeDelta: {x: 400, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1901833967573052193
 CanvasRenderer:

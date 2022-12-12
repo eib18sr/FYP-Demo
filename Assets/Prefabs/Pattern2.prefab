@@ -156,9 +156,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7587600115109986017}
-        m_TargetAssemblyTypeName: PositionController, Assembly-CSharp
-        m_MethodName: GetPositionData
+      - m_Target: {fileID: 5404056228956487897}
+        m_TargetAssemblyTypeName: WeatherController, Assembly-CSharp
+        m_MethodName: SetWeatherText
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -559,7 +559,7 @@ PrefabInstance:
     - target: {fileID: 1901833967573052207, guid: ed90b994099f4c548bfaf4d0671145ad,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.409
+      value: 0.549
       objectReference: {fileID: 0}
     - target: {fileID: 1901833967630169608, guid: ed90b994099f4c548bfaf4d0671145ad,
         type: 3}
@@ -573,21 +573,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed90b994099f4c548bfaf4d0671145ad, type: 3}
---- !u!4 &7587600115109986016 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1901833966441682802, guid: ed90b994099f4c548bfaf4d0671145ad,
-    type: 3}
-  m_PrefabInstance: {fileID: 8297946016675572114}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7587600115109986017 stripped
+--- !u!114 &5404056228956487897 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1901833966441682803, guid: ed90b994099f4c548bfaf4d0671145ad,
+  m_CorrespondingSourceObject: {fileID: 4167845550569351499, guid: ed90b994099f4c548bfaf4d0671145ad,
     type: 3}
   m_PrefabInstance: {fileID: 8297946016675572114}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e4aad875fd423c4c88db97cb1f81007, type: 3}
+  m_Script: {fileID: 11500000, guid: b65ebdc407c23e2468a4a3c924a2b583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &7587600115109986016 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1901833966441682802, guid: ed90b994099f4c548bfaf4d0671145ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 8297946016675572114}
+  m_PrefabAsset: {fileID: 0}
