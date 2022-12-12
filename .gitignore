@@ -24,6 +24,9 @@
 
 # Android build directory
 /AndroidBuild/
+
+# Ignore backup
+/app_BackUpThisFolder_ButDontShipItWithYourGame/
 # Gradle cache directory
 .gradle/
 
