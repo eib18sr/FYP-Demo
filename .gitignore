@@ -23,7 +23,7 @@
 .vs/
 
 # Android build directory
-.AndroidBuild/
+/AndroidBuild/
 # Gradle cache directory
 .gradle/
 
