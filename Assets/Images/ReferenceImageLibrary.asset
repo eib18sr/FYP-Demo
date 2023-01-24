@@ -37,3 +37,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: Pattern2
     m_Texture: {fileID: 2800000, guid: a0181b77b752c1b4d956485b0dfc729a, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4903225406095974031
+      m_GuidHigh: 2899641454316508065
+    m_SerializedTextureGuid:
+      m_GuidLow: 12958141159218473833
+      m_GuidHigh: 10231295835320703608
+    m_Size: {x: 0.0541, y: 0.046889026}
+    m_SpecifySize: 1
+    m_Name: Pattern3
+    m_Texture: {fileID: 2800000, guid: a895eb6990bab3d4785a39c05addfc8d, type: 3}

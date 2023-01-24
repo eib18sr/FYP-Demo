@@ -23,8 +23,8 @@
 .vs/
 
 # Ignore the Weather API Key
-
 /Assets/apikey.*
+
 # Android build directory
 /AndroidBuild/
 
